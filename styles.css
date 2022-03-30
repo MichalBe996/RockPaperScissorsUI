@@ -1,0 +1,53 @@
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.rock, .paper, .scissors {
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 5px solid grey;
+}
+
+.points{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mypoints, .cpupoints {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.rock:hover{
+    cursor: pointer;
+}
+
+.paper:hover{
+    cursor: pointer;
+}
+
+.scissors:hover{
+    cursor: pointer;
+}
+
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 30px;
+}
+
+.myPoints, .cpuPoints {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
